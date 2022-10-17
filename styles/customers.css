@@ -1,0 +1,90 @@
+.customers-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway';
+    margin-bottom: 64px;
+}
+
+.customers-subcontainer {
+    width: 1170px;
+}
+
+.customers-subcontainer h2 {
+    margin-top: 50px;
+    line-height: 150px;
+    height: 150px;
+    text-transform: uppercase;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.customers-subcontainer .separator {
+    border: 0.5px solid #EC7979;
+    width: 170px;
+    margin: auto;
+}
+
+.customers-subcontainer .text {
+    margin: 40px auto 59px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    color: #86878B;
+}
+
+.customers-subcontainer__customers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.customers-subcontainer__customers .rectangle {
+    height: 180px;
+    background-color: #E2E2E2;
+    border-radius: 10px;
+}
+
+.customers-subcontainer__customers .rectangle h5 {
+    color: #86878B;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding: 38px 20px;
+}
+
+.customers-subcontainer__customers .triangle {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 20px solid #E2E2E2;
+    margin-left: 70px;
+}
+
+.customers-subcontainer article {
+    width: 370px;
+    height: 336px;
+}
+
+.customers-subcontainer__customers .manager {
+    margin-top: 36px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.customers-subcontainer__customers h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 54px;
+    padding-left: 30px;
+    height: 54px;
+}
+
+.customers-subcontainer__customers .manager h5 {
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 100px;
+}

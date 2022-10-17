@@ -1,21 +1,17 @@
 
 .price-container {
-    width: 100%;
-    background: #F5F5F5;
+    width: 100%; 
+    height: 900px;
     display: flex;
     justify-content: center;
-    margin-top: 58px;
+    margin-top: 59px;
+    font-family: 'Raleway';
+    background-color: #F5F5F5;
 }
 .prise-subcontainer {
     width: 1170px;
 }
-.price-info-containers {
-    margin: auto; 
-    height: 530px;
-    display: flex;
-    justify-content: space-between;
-}
-.prise-subcontainer h2 {
+.price-subcontainer h2 {
     margin-top: 50px;
     line-height: 150px;
     height: 150px;
@@ -23,30 +19,36 @@
     font-size: 36px;
     text-align: center;
     font-weight: 400;
-    font-family: 'Raleway';
 }
-.prise-subcontainer .separator {
+.price-subcontainer .separator {
     border: 0.5px solid #EC7979;
     width: 170px;
     margin: auto;
 }
-.prise-subcontainer .text {
+.price-subcontainer .text {
     margin: 40px auto 59px;
     text-align: center;
     font-weight: 400;
     font-size: 18px;
     color: #86878B;
-    font-family: 'Raleway';
 }
-.price-info {
+.price-container__price-sections {
+    margin: auto; 
+    width: 1170px;
+    height: 530px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.price-container__price-sections section {
     width: 370px;
     height: 510px;
-    align-self: flex-end;
 }
 section.second {
     align-self: flex-start;
 }
-.price-info h4 {
+.price-container__price-sections h4 {
+    font-family: 'Open Sans', sans-serif;
     background: #333;
     color: #fff;
     line-height: 60px;
@@ -55,9 +57,8 @@ section.second {
     font-size: 24px;
     border: 2px solid #F5F5F5;
 }
-.price-info h3 {
+.price-container__price-sections h3 {
     background: #333;
-    font-family: 'Raleway';
     color: #fff;
     line-height: 100px;
     height: 100px;
@@ -66,25 +67,23 @@ section.second {
     font-weight: 700;
     font-size: 36px;
 }
-.price-info .subtitle {
+.price-container__price-sections .subtitle {
     background: #333;
     color: rgba(255, 255, 255, 0.5);
     height: 50px;
     line-height: 50px;
-    font-family: 'Raleway';
     border: 2px solid #F5F5F5;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
     border: 2px solid #F5F5F5;
 }
-.price-info .line {
+.price-container__price-sections h5:not(.second) {
     border: 2px solid #F5F5F5;
     color: #86878B;
     font-weight: 400;
     font-size: 18px;  
     line-height: 50px;
-    font-family: 'Raleway';
     height: 50px;  
     text-align: center;
     background: #fff;
