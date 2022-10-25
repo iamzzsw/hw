@@ -1,0 +1,34 @@
+.social-media-container {
+    width: 100%;
+    height: 140px;
+    background-color: #F8EFEF;
+    font-family: Open Sans, sans-serif;  
+    display: flex;
+    justify-content: center;
+}
+.social-media-subcontainer{
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+}
+.social-media-subcontainer div {
+    width: 470px;
+}
+.social-media-subcontainer h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 60px;
+}
+.social-media-subcontainer h5 {
+    font-family: 'Raleway';
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #86878B;
+}
+.social-media-subcontainer section {
+    align-self: center;
+}
+.contact-icons img {
+    width: 70px;
+}

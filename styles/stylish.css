@@ -1,0 +1,43 @@
+.stylish-container {
+    width: 100%;
+    font-family: 'Raleway';
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    height: 442px;
+    background-image:  url(../images/bg1.png), url(../images/image1.png);
+}
+.stylish-subcontainer{
+    margin-top: 50px;
+    width: 1170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.stylish-subcontainer h2{
+    font-weight: 400;
+    font-size: 36px;
+    text-transform: uppercase;
+    line-height: 150px;
+}
+.stylish-subcontainer .stylish-separator{
+    border: 0.5px solid #FFFFFF;
+    width: 170px;
+}
+.stylish-subcontainer h5 {
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 40px;
+}
+.stylish-subcontainer button {
+    margin-top: 73px;
+    width: 370px;
+    height: 58px;
+    border: 2px solid #FFFFFF;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: Open Sans, sans-serif;  
+    cursor: pointer;
+}
